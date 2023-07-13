@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Go Lang Rest API.iml" filepath="$PROJECT_DIR$/.idea/Go Lang Rest API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../go-lang-rest-api/.idea/Go Lang Rest API.iml" filepath="$PROJECT_DIR$/../go-lang-rest-api/.idea/Go Lang Rest API.iml" />
     </modules>
   </component>
 </project>

@@ -6,7 +6,6 @@ import (
 
 func main() {
 	user := models.NewUser()
+	user.Show(1)
 	user.Index()
-	client := models.NewClient()
-	client.Index()
 }

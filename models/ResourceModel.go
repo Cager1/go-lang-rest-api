@@ -1,17 +1,23 @@
 package models
 
-import "fmt"
+import (
+	"fmt"
+	"go-lang-rest-api/helpers"
+)
 
 type ResourceModel struct {
 	Model string
+	helpers.ResourceHelper
 }
 
 func (r *ResourceModel) Index() {
+	fmt.Println(r)
 	fmt.Println("Indexing " + r.Model + " model")
 }
 
 func (r *ResourceModel) Show(id int) {
-	fmt.Println("Showing " + r.Model + " model with id " + string(rune(id)))
+	r.Find(id, r.Model)
+	fmt.Println("Showing", r.Model, "model with id", id)
 }
 
 func (r *ResourceModel) Store() {
